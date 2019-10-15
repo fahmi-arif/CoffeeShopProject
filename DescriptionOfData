@@ -1,0 +1,10 @@
+To answer the challenge, we need the appropriate data. This data should be consisted of:
+1.	Bandung with district and neighborhood’s data. 
+    This data should consist of all district in Bandung city. 
+    Each district should consist with all neighborhood with postcode and geocode data. 
+    This data will be used as a reference data for constructing a map and as the initial location to be explored
+
+2.	Bandung venue data (from Foursquare location). 
+    This data will be captured from Foursquare by explore function. 
+    Most common venue in each neighborhood will be explored. 
+    Then cluster analysis will be employed to find neighborhood that have a lot of place for people to gather with small number of coffee shop.
